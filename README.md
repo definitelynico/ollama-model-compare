@@ -26,10 +26,10 @@ The tool analyzes the output of `ollama show --verbose` and highlights differenc
 ```
 Ollama Model Comparison Tool
 ----------------------------
-Enter first model name: llama2
-Enter second model name: llama2-uncensored
+Enter first model name: my_model_1
+Enter second model name: my_model_2
 
-Comparing models llama2 and llama2-uncensored...
+Comparing models my_model_1 and my_model_2...
 ```
 
 ## Example Output
@@ -49,10 +49,16 @@ Comparing models llama2 and llama2-uncensored...
 - .NET 7.0 or higher
 - Ollama installed and configured
 
-## Building from Source
+## Build
+
+PublishAoT and SelfContained are set to true in the .csproj
 
 ```bash
 dotnet build
+
+# Or for example...
+
+dotnet publish -c Release -r win-x64
 ```
 
 ## License
