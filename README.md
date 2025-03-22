@@ -1,4 +1,4 @@
-# Ollama Model Compare
+# Ollama Model Compare ⭕🦙
 
 A simple command-line tool to compare the metadata and parameters of two [Ollama](https://ollama.ai/) models.
 
